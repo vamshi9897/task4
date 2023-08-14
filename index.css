@@ -1,0 +1,90 @@
+.bg-container{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/891/140/non_2x/abstract-gradient-background-light-blue-pink-perfect-for-design-wallpaper-promotion-presentation-website-banner-etc-illustration-background-vector.jpg");
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-container{
+    background-color: white;
+    height:95vh;
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.username-el{
+    border: 1px solid transparent;
+
+}
+
+.username{
+    border:1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgb(134, 134, 134);
+    width:20vw;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:5px;
+    border-radius: 5px;
+    
+}
+.labels{
+    font-weight: 500;
+}
+.anchor{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: gray;
+}
+
+.Login-button{
+    width:20vw;
+    height:40px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    color: white;
+}
+
+.fb-icon{
+    height:35px;
+    width:35px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-icon{
+    color: grey;
+}
